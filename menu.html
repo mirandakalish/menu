@@ -35,6 +35,7 @@
 
     <!-- Custom styles for this template -->
     <link href="starter-template.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -77,7 +78,7 @@
         </div>
 
 
-        <ul class="nav nav-tabs" role="tablist">
+        <ul class="nav nav-tabs nav-justified" role="tablist">
           <li class="active"><a href="#food" role="tab" data-toggle="tab">Entrees and sides</a></li>
           <li><a href="#beverages" role="tab" data-toggle="tab">Beverages</a></li>  
           <li><a href="#desserts" role="tab" data-toggle="tab">Desserts</a></li>
@@ -87,10 +88,13 @@
         <div class="tab-content">
 
           <div class="tab-pane active" id="food">
-            <div class="Sandwiches">
-              <h3>Sandwiches</h3>
-                <h4>Served with chips and a pickle</h4>
+            <div class="sandwiches">
 
+              <h3>Sandwiches</h3>
+                <h4><em>Served with chips and a pickle</em></h4>
+
+              <div class="row">
+              <div class="col-md-4">
                 <div class="blt">
                   <h4>Heart Stopping BLT</h4>
                   <p>Thick-sliced bacon, lettuce and tomato with Miracle Whip served on white toast 8.99</p>
@@ -120,12 +124,16 @@
                   <h4>Ham</h4>
                   <p>Sliced ham served on thick-sliced Texas toast 6.39</p>
                 </div>
+               
 
+                
                 <div class="ham-cheese">
                   <h4>Grilled Ham & Cheese</h4>
                   <p>Sliced ham & melted cheese served on grilled sourdough 6.99</p>
                 </div>
+                 </div>
 
+                <div class="col-md-4">
                 <div class="roast-beef">
                   <h4>Ham</h4>
                   <p>Sliced roast beef served on a large hoagie 6.99</p>
@@ -151,11 +159,14 @@
                   <p>Homemade chicken salad served on whole wheat toast with lettuce 7.29 ...while supply lasts</p>
                 </div>
 
+                
                 <div class="fish-fillet">
                   <h4>Fish Fillet</h4>
                   <p>Lightly coated and served with American cheese, lettuce and tartar on a hoagie 6.79</p>
                 </div>
+                </div>
 
+                <div class="col-md-4">
                 <div class="turkey-special">
                   <h4>Turkey Special</h4>
                   <p>Turkey with bacon, lettuce, tomato, Miracle Whip served on wheat toast 8.99</p>
@@ -185,6 +196,8 @@
                   <h4>The Big Cheese</h4>
                   <p>Swiss, provolone, cheddar and American cheeses grilled on buttered sourdough bread 5.29</p>
                 </div>
+                </div>
+              </div>
 
                 <div class="extras">
                   <h4>Extras</h4>
@@ -225,6 +238,8 @@
 
           <div class="tab-pane" id="beverages">
             <div class="malts-shakes">
+              <div class="row">
+                <div class="col-md-6">
 
               <h3>Malts & Shakes</h3>
                 <p>Crown's built a reputation on our malts and shakes. Each one is 24 ounces and is made with 3 scoops of ice cream, fresh milk, and old-fashioned malted milk powder.</p>
@@ -249,12 +264,17 @@
               <p>Extras: Thick 1.09 • Malt .39 • Topping .79 • Nuts .79 • Whipped Cream .79</p>
                 </div>
             </div>
+            </div>
+         
 
+            <div class="col-md-4">
             <div class="beverages">
               <h3>Beverages</h3>
                 <h5>Pepsi • Diet Pepsi • Sierra Mist • Root Beer • Dr. Pepper • Lemonade • Iced Tea</h5>
             </div>
           </div>
+        </div>
+      </div>
 
           <div class="tab-pane" id="desserts">
 

@@ -1,1 +1,15 @@
-/*Use this for custom stuff*/
+/*Use this for custom stuff for home page*/
+
+.extras {
+	text-align:center;
+}
+
+h3.sandwiches {
+	text-align:center;
+	font-size:25px;
+}
+
+.jumbotron {
+	text-align:center;
+	height:900px;
+}
