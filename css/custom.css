@@ -4,12 +4,24 @@
 	text-align:center;
 }
 
-h3.sandwiches {
+.sandwiches {
 	text-align:center;
-	font-size:25px;
+	font-size:15px;
 }
 
 .jumbotron {
 	text-align:center;
 	height:900px;
 }
+
+.about-right {
+	font-size:18px;
+}
+
+.salads, .chili {
+	text-align:center;
+	margin-top:50px;
+	margin-bottom:20px;
+}
+
+
