@@ -4,9 +4,13 @@
 	text-align:center;
 }
 
-.sandwiches {
+.sandwiches, .sundaes {
 	text-align:center;
 	font-size:15px;
+}
+
+h3 {
+	font-size:40px;
 }
 
 .jumbotron {
@@ -18,10 +22,48 @@
 	font-size:18px;
 }
 
-.salads, .chili {
+.salads, .chili, .ice-cream {
 	text-align:center;
-	margin-top:50px;
-	margin-bottom:20px;
+	margin-top:40px;
+	margin-bottom:30px;
 }
 
+.caption h3 {
+	font-size:20px;
+}
 
+.menu-header h1, .about-header h1, .challenge-header h1, .contact-header h1{
+	text-align:center;
+	font-size:60px;
+	margin-bottom:40px;
+}
+
+.malts-shakes, .beverages {
+	text-align:center;
+	margin-left:50px;
+	margin-right:50px;
+}
+
+.johnny-rabbit {
+	margin-top:40px;
+}
+
+.extras-malts {
+	margin-top:40px;
+}
+
+.newport {
+	font-size:12px;
+}
+
+.challenge h4 {
+	font-size:40px;
+}
+
+.challenge h5 {
+	font-size:20px;
+}
+
+.contact h4 {
+	font-size:23px;
+}
