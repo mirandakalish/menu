@@ -16,6 +16,7 @@ h3 {
 .jumbotron {
 	text-align:center;
 	height:900px;
+	background-color:transparent;
 }
 
 h1 {
@@ -79,3 +80,10 @@ h1 {
 .challenge {
 	text-align:center;
 }
+
+.navbar{
+	background-color:#fff;
+	border-color:#fff;
+}
+
+
