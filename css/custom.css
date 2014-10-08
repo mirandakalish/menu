@@ -15,8 +15,12 @@ h3 {
 
 .jumbotron {
 	text-align:center;
-	height:900px;
+	height:200px;
+	color:#fff;
+	text-shadow: 5px 5px #000;
+	margin-top:20px;
 	background-color:transparent;
+
 }
 
 h1 {
@@ -86,4 +90,19 @@ h1 {
 	border-color:#fff;
 }
 
+body.contact {
+	background-color:transparent;
+	background-image:url(../exterior_big_light.jpg);
+	background-repeat:no-repeat;
 
+
+}
+
+body.home {
+	background-image:url(../exterior_big.jpg);
+	background-repeat:no-repeat;
+}
+
+.thumbnail {
+	margin-top:100px;
+}
