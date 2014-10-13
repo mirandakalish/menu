@@ -126,22 +126,12 @@ h1 {
 	border-color:#fff;
 }
 
-body.contact, body.about, body.challenge {
-	background-image:url(../exterior_big_light.jpg);
-	background-repeat:no-repeat;
-}
 
-
-body.menu {
+body.menu,body.home, body.contact, body.about, body.challenge {
 	background-image:url(../exterior_big_light_menu.jpg);
 	background-repeat:no-repeat;
 }
 
-
-body.home {
-	background-image:url(../exterior_big_light.jpg);
-	background-repeat:no-repeat;
-}
 
 .thumbnail {
 	margin-top:50px;
